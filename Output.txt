@@ -1,0 +1,21 @@
+Symbol Table:
+Identifier         Memory Location       Type
+low                  5000                    Integer
+high                  5001                    Integer
+step                  5002                    Integer
+
+Instruction Table:
+1. STDIN 
+2. LABEL 
+3. PUSHM 5000
+4. LES 
+5. PUSHM 5001
+6. PUSHM 15
+7. STDOUT 
+8. PUSHM 0
+9. STDOUT 
+10. PUSHM 5000
+11. PUSHM 5002
+12. ADD 
+13. POPM 5000
+14. JUMP 2
